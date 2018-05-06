@@ -1,0 +1,1 @@
+draw_text( 10, 10, "bootstrapper finished.\nCheck the Output window for more details." );
