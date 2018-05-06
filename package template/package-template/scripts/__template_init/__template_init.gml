@@ -3,11 +3,11 @@ gml_pragma( "global", "__template_init()" );
 switch( bootstrapper_get_script_phase( __template_init ) ) {
     
     case 0:
-        bootstrapper_queue( "Quaternions", __template_init, 10000 );
+        bootstrapper_queue( "Template", __template_init, 10000 );
     break;
     
     case 1:
-        bootstrapper_set_package_as_finished( "Quaternions" );
+        bootstrapper_set_package_as_finished( "Template" );
     break;
     
 }
