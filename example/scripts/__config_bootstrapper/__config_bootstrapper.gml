@@ -19,7 +19,7 @@
 #macro BOOTSTRAPPER_SHOW_DEBUG true
 
 //  -- Internal definitions --
-#macro BOOTSTRAPPER_VERSION "00.02.00"
+#macro BOOTSTRAPPER_VERSION "00.02.01"
 #macro BOOTSTRAPPER_INFO "bootstrapper v" + BOOTSTRAPPER_VERSION + ", 2018/05/05, for the GameMakerDiscord GitHub organisation, (c) @jujuadams 2018"
 enum E_BOOTSTRAPPER_STATE {
 	FAILED    = -2, //Not used
