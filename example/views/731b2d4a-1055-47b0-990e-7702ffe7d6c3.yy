@@ -7,7 +7,7 @@
         "ac75f318-6a8b-4e1c-9cf8-8879cef20d87"
     ],
     "filterType": "GMScript",
-    "folderName": "Example B - script phases",
+    "folderName": "Example B - script queuing and script phases",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

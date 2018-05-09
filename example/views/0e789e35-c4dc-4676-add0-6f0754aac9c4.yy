@@ -7,7 +7,7 @@
         "579187fe-a14e-4aca-ab72-8de0e1e80e5a"
     ],
     "filterType": "GMScript",
-    "folderName": "Example C - instance creation",
+    "folderName": "Example D - instance creation",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

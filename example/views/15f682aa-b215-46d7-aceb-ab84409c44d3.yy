@@ -8,7 +8,7 @@
         "889cc9b0-1a1c-42eb-986e-7128f28034e7"
     ],
     "filterType": "GMScript",
-    "folderName": "Example A - basic use",
+    "folderName": "Example F - multiple scripts",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

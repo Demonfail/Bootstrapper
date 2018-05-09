@@ -1,8 +1,8 @@
 {
-    "id": "889cc9b0-1a1c-42eb-986e-7128f28034e7",
+    "id": "cb56a79d-bf75-48a5-98d4-c7231a80af25",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "__example_a_init_second",
+    "name": "bootstrapper_package_unfinish",
     "IsCompatibility": false,
     "IsDnD": false
 }

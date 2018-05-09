@@ -1,0 +1,1 @@
+draw_text( 10, 220, "Example D is waiting 90 frames to finish..." );

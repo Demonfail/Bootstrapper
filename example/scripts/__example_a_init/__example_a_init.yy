@@ -1,8 +1,8 @@
 {
-    "id": "5873416f-06d4-4786-aff0-63ae67646d24",
+    "id": "e3fa9957-d854-4a32-a9b4-1e5f9e523670",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "bootstrapper_get_current_priority",
+    "name": "__example_a_init",
     "IsCompatibility": false,
     "IsDnD": false
 }
