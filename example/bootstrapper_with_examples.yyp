@@ -162,7 +162,7 @@
             "Key": "6430f4c6-f3e9-448d-b214-090474d70fa8",
             "Value": {
                 "id": "8831639e-075a-41fe-a686-473fcef42029",
-                "resourcePath": "scripts\\__readme_bootstrapper\\__readme_bootstrapper.yy",
+                "resourcePath": "scripts\\__bootstrapper_readme\\__bootstrapper_readme.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -410,7 +410,7 @@
             "Key": "eeccf5c6-0d55-4683-8b35-568c4da3f4e5",
             "Value": {
                 "id": "0ae0252a-5659-441c-882c-7763a83f0ccd",
-                "resourcePath": "scripts\\__config_bootstrapper\\__config_bootstrapper.yy",
+                "resourcePath": "scripts\\__bootstrapper_config\\__bootstrapper_config.yy",
                 "resourceType": "GMScript"
             }
         },

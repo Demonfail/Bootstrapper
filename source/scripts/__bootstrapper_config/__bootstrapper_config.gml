@@ -2,7 +2,7 @@
 
 //  Controls how much process data is shown in the Output window.
 //  This is useful for debugging dependency behaviours and wait loops.
-//  Be warned - this is *very* verbose and it's appropriate for anything but debug.
+//  Be warned - this is *very* verbose and it's inappropriate for anything but debug.
 #macro BOOTSTRAPPER_VERBOSE false
 
 //  The number of frames (one iterations per frame) oBootstrapper will wait until throwing a warning.
@@ -19,11 +19,6 @@
 #macro BOOTSTRAPPER_SHOW_DEBUG true
 
 //  -- Internal definitions --
-#macro BOOTSTRAPPER_VERSION "00.02.01"
-#macro BOOTSTRAPPER_INFO "bootstrapper v" + BOOTSTRAPPER_VERSION + ", 2018/05/05, for the GameMakerDiscord GitHub organisation, (c) @jujuadams 2018"
-enum E_BOOTSTRAPPER_STATE {
-	FAILED    = -2, //Not used
-	NOT_FOUND = -1,
-	QUEUED    =  0,
-	COMPLETE  =  1
-}
+#macro BOOTSTRAPPER_VERSION "00.04.00"
+#macro BOOTSTRAPPER_DATE "2018/05/09"
+#macro BOOTSTRAPPER_INFO "Bootstrapper v" + BOOTSTRAPPER_VERSION + ", " + BOOTSTRAPPER_DATE + ", for the GameMakerDiscord GitHub organisation, (c) @jujuadams 2018"

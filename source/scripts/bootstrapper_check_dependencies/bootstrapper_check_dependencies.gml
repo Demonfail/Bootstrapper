@@ -1,18 +1,35 @@
-/// @param package_name
-/// @param [package_name...]
+/// @desc Checks all dependencies have been installed, and returns true if all dependencies have finished initialising
+/// @param [dependency_name]
+/// @param [dependency_name...]
 
 //  Make sure we have the necessary data structures in place for scripts to interface with
 __bootstrapper_create_data_structures();
 
-//  This script can only be run after the bootstrapper has started resolving packages
-if ( !global.bootstrapper_resolving ) {
-    show_error( "ERROR: bootstrapper_check_dependencies() can only be called\nafter the bootstrapper has started resolving packages.\n ", true );
+if ( !global.bootstrapper_resolve_started ) {
+    show_error( "bootstrapper_check_dependencies() cannot be used immediately on boot.\nPlease run dependency checks in a queued script using bootstrapper_queue().\n ", true );
 }
 
+var _ready = true;
+var _found = true;
 for( var _i = 0; _i < argument_count; _i++ ) {
-    if ( bootstrapper_get_package_state( argument[_i] ) == E_BOOTSTRAPPER_STATE.NOT_FOUND ) {
-        return false;
+    
+    var _dependency = argument[_i];
+    
+    if ( !ds_map_exists( global.bootstrapper_finished_map, _dependency ) ) {
+        _ready = false;
+        _found = false;
+        break;
+    } 
+    
+    if ( !global.bootstrapper_finished_map[? _dependency ] ) {
+        _ready = false;
+        break;
     }
+    
 }
 
-return true;
+if ( !_found ) {
+    show_error( "\"" + __bootstrapper_get_script( 2 ) + "\" could not find its dependency \"" + string( _dependency ) + "\".\nPlease import all required dependency packages.\n ", true );
+}
+
+return _ready;

@@ -26,7 +26,7 @@ if ( ds_queue_empty( global.bootstrapper_script_queue ) ) {
         global.bootstrapper_complete = true;
         
         if ( room == room_last ) {
-            show_error( "Bootstrapper wants to move to the next room, but this is the last room.\nbootstrapper will now spontaneously self-destruct.\n ", false );
+            show_error( "Bootstrapper wants to move to the next room, but this is the last room.\nBootstrapper will now spontaneously self-destruct.\n ", false );
             instance_destroy();
         } else {
 		    room_goto_next();
