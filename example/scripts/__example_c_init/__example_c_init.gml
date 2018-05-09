@@ -27,7 +27,7 @@ switch( _phase ) {
             //  This means this phase will be executed again when this script is called by the bootstrapper.
             bootstrapper_wait( "Example C", "__example_c_init" );
             
-            //  ...and then we abort all further operations
+            //  ...and then we abort this script
             exit;
         }
         

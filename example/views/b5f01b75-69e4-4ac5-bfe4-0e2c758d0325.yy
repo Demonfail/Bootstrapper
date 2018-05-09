@@ -7,7 +7,7 @@
         "6d695474-f38d-46cf-8d87-d411ed93daa0"
     ],
     "filterType": "GMScript",
-    "folderName": "Example E - \"real world\" (no comments)",
+    "folderName": "Example E - \"real world\" (ex. C w\/o comments)",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

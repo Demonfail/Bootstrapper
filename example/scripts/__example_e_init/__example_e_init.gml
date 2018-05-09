@@ -13,7 +13,7 @@ switch( _phase ) {
 	break;
 	
 	case 1:
-        if ( !bootstrapper_check_dependencies( "Example C" ) ) {
+        if ( !bootstrapper_check_dependencies( "Example D" ) ) {
             bootstrapper_wait( "Example E", "__example_e_init" );
             exit;
         }
