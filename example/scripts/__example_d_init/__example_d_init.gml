@@ -1,4 +1,4 @@
-//  Please read "Making A Package" in __readme_bootstrapper()
+//  Please read "Making A Package" in __bootstrapper_readme()
 
 //  Step 1) "The package must use gml_pragma( "global", ... ) to execute a primary script"
 gml_pragma( "global", "__example_d_init()" );

@@ -1,7 +1,7 @@
-//  Please read "Making A Package" in __readme_bootstrapper()
+//  Please read "Making A Package" in __bootstrapper_readme()
 
-//  This script emulates the behaviour of Example D, but without comments.
-//  This is how a package might commonly look.
+//  This script copies the behaviour of Example D, but is presented without comments.
+//  This is how a package might commonly look in the real world.
 
 gml_pragma( "global", "__example_e_init()" );
  

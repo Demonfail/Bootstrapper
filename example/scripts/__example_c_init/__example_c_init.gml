@@ -1,4 +1,7 @@
-//  Please read "Making A Package" in __readme_bootstrapper()
+//  Please read "Making A Package" in __bootstrapper_readme()
+//  
+//  Example C demonstrates the proper procedure for dealing with dependencies, specifically, waiting for
+//  dependencies to finish loading. bootstrapper_check_dependencies() is used
 
 //  Step 1) "The package must use gml_pragma( "global", ... ) to execute a primary script"
 gml_pragma( "global", "__example_c_init()" );
@@ -6,7 +9,7 @@ gml_pragma( "global", "__example_c_init()" );
 //  Step 2) "The primary script must only define variables essential to the package's operation"
 //  Example D has no variables to define :)
 
-//  See example B for more information on using queuing and script phases.
+//  See Example B for more information on using queuing and script phases.
 var _phase = bootstrapper_get_phase( "__example_c_init" );
 switch( _phase ) {
 	
@@ -20,7 +23,7 @@ switch( _phase ) {
 	case 1: //Phase 1 is the first phase executed by the bootstrapper
         
         //  Check if our dependency has finished loading (you can specify more than one dependency as additional arguments)
-        if ( !bootstrapper_check_dependencies( "Example D" ) ) {
+        if ( !bootstrapper_check_dependencies( "Example D" ) ) { //(This script can take multiple arguments for multiple dependencies)
             
             //  ...if the dependency hasn't finished loading then we tell the bootstrapper to use this script again.
             //  Using bootstrapper_wait() prevents the bootstrapper from incrementing the phase counter.

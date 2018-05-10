@@ -1,4 +1,4 @@
-//  Please read "Making A Package" in __readme_bootstrapper()
+//  Please read "Making A Package" in __bootstrapper_readme()
 
 show_debug_message( "Example F: __example_f_init_second() executed." );
 global.example_f_value = 1;

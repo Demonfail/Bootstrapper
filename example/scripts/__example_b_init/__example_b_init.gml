@@ -1,4 +1,10 @@
-//  Please read "Making A Package" in __readme_bootstrapper()
+//  Please read "Making A Package" in __bootstrapper_readme()
+//  
+//  Example B demonstrates how to use script queuing and script phases to allow a package to
+//  initialise variables and perform operations in multiple stages. Not every package will
+//  need this feature but it is highly useful nonetheless.
+
+
 
 //  Step 1) "The package must use gml_pragma( "global", ... ) to execute a primary script"
 gml_pragma( "global", "__example_b_init()" );
