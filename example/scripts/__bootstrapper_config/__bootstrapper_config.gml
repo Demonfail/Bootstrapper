@@ -18,7 +18,7 @@
 
 #region -- Internal definitions --
 
-#macro BOOTSTRAPPER_VERSION "00.05.00"
+#macro BOOTSTRAPPER_VERSION "00.05.00 (Release Candidate)"
 #macro BOOTSTRAPPER_DATE "2018/05/27"
 #macro BOOTSTRAPPER_INFO "Bootstrapper v" + BOOTSTRAPPER_VERSION + ", " + BOOTSTRAPPER_DATE + ", for the GameMakerDiscord GitHub organisation, (c) @jujuadams 2018"
 
