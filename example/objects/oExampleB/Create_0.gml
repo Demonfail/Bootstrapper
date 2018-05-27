@@ -1,0 +1,1 @@
+show_debug_message( "Example B: Waiting for user input..." );

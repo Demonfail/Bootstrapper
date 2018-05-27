@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "5ec64d7b-07e2-4949-af9c-e7e9435ceef7",
     "children": [
-        "e3fa9957-d854-4a32-a9b4-1e5f9e523670"
+        "e3fa9957-d854-4a32-a9b4-1e5f9e523670",
+        "b7ba7cea-7dc7-419c-b812-a86ddf73f710"
     ],
     "filterType": "GMScript",
     "folderName": "Example A - basic packages",

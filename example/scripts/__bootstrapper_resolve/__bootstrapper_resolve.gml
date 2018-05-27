@@ -17,6 +17,7 @@ if ( ds_queue_empty( global.bootstrapper_script_queue ) ) {
 		ds_queue_destroy( global.bootstrapper_script_queue       );
 		ds_map_destroy(   global.bootstrapper_phase_map          );
 		ds_map_destroy(   global.bootstrapper_suppress_phase_map );
+        ds_map_destroy(   global.bootstrapper_instances_created  );
 		global.bootstrapper_script_queue       = undefined;
 		global.bootstrapper_phase_map          = undefined;
         global.bootstrapper_suppress_phase_map = undefined;
