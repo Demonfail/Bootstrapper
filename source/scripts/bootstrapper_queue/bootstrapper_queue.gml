@@ -29,3 +29,9 @@ if ( BOOTSTRAPPER_VERBOSE ) {
     }
     
 }
+
+
+//  This bootstrapper was written by @jujuadams for the GameMakerDiscord GitHub organisation.
+//  MIT License (c) @jujuadams 2018
+//  contact@jujuadams.com
+//  For version information, see __config_bootstrapper().

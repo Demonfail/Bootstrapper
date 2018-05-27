@@ -17,6 +17,7 @@ if ( ds_queue_empty( global.bootstrapper_script_queue ) ) {
 		ds_queue_destroy( global.bootstrapper_script_queue       );
 		ds_map_destroy(   global.bootstrapper_phase_map          );
 		ds_map_destroy(   global.bootstrapper_suppress_phase_map );
+        ds_map_destroy(   global.bootstrapper_instances_created  );
 		global.bootstrapper_script_queue       = undefined;
 		global.bootstrapper_phase_map          = undefined;
         global.bootstrapper_suppress_phase_map = undefined;
@@ -72,3 +73,9 @@ if ( ds_queue_empty( global.bootstrapper_script_queue ) ) {
 	if ( BOOTSTRAPPER_VERBOSE && ds_queue_empty( global.bootstrapper_script_queue ) ) show_debug_message( "Bootstrapper: Script queue is now empty." );
 	
 }
+
+
+//  This bootstrapper was written by @jujuadams for the GameMakerDiscord GitHub organisation.
+//  MIT License (c) @jujuadams 2018
+//  contact@jujuadams.com
+//  For version information, see __config_bootstrapper().
