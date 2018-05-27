@@ -4,7 +4,9 @@ MIT License (c) @jujuadams 2018
 
 contact@jujuadams.com
 
-For version information, see __config_bootstrapper().
+v00.05.00 (Release Candidate)
+
+
 
 ## Intent
 
