@@ -1,3 +1,4 @@
+/// @desc Safely creates an instance during the pre-room boot phase
 /// @param package_name
 /// @param object
 /// @param [singleton]
@@ -39,3 +40,9 @@ if ( global.bootstrapper_resolve_started ) {
     return noone;
     
 }
+
+
+//  This bootstrapper was written by @jujuadams for the GameMakerDiscord GitHub organisation.
+//  MIT License (c) @jujuadams 2018
+//  contact@jujuadams.com
+//  For version information, see __config_bootstrapper().
