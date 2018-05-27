@@ -73,3 +73,9 @@ if ( ds_queue_empty( global.bootstrapper_script_queue ) ) {
 	if ( BOOTSTRAPPER_VERBOSE && ds_queue_empty( global.bootstrapper_script_queue ) ) show_debug_message( "Bootstrapper: Script queue is now empty." );
 	
 }
+
+
+//  This bootstrapper was written by @jujuadams for the GameMakerDiscord GitHub organisation.
+//  MIT License (c) @jujuadams 2018
+//  contact@jujuadams.com
+//  For version information, see __config_bootstrapper().
